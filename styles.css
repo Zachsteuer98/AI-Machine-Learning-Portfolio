@@ -106,3 +106,9 @@ body{background:var(--paper);color:var(--ink);line-height:1.6}
 .project-card{align-items:center}
 .project-card>.project-info{align-self:end}
 .project-card>.tag-row{align-self:start}
+
+/* ===== Headshot ===== */
+.hero-portrait{margin:0 0 0 14px;height:485px;background:var(--mustard);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--ink);overflow:hidden}
+.hero-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+@media(max-width:900px){.hero-portrait{height:415px;margin-left:0}}
+@media(max-width:640px){.hero-portrait{height:min(100vw,420px);margin:42px 0 0}}
